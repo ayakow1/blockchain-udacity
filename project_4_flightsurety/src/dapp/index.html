@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>FlightSurety</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">FlightSurety</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <main class="container">
+      <div id="display-wrapper" class="top-20"></div>
+
+      <div class="top-20">
+        <h2>(Admin) Register airline</h2>
+      </div>
+      <div class="row top-20">
+        <label class="form">Airline</label>
+        <input type="text" id="register-airlinead" />
+        <label class="form">Airline name</label>
+        <input type="text" id="register-airlinename" />
+        <btn class="btn btn-primary" id="register-airline">Register</btn>
+      </div>
+
+      <div class="top-20">
+        <h2>(Admin) Fund airline</h2>
+      </div>
+      <div class="row top-20">
+        <label class="form">Airline</label>
+        <input type="text" id="fund-airlinead" />
+        <btn class="btn btn-primary" id="fund-airline">Fund</btn>
+      </div>
+
+      <div class="top-20">
+        <h2>(Admin) Register Flight</h2>
+      </div>
+      <div class="row top-20">
+        <label class="form">Airline</label>
+        <input type="text" id="register-flightairline" />
+        <label class="form">Flight</label>
+        <input type="text" id="register-flightname" />
+        <label class="form">Timestamp</label>
+        <input type="text" id="register-flighttime" />
+        <btn class="btn btn-primary" id="register-flight">Register</btn>
+      </div>
+
+      <div class="top-20">
+        <h2>(Passenger) Buy Insurance</h2>
+      </div>
+      <div class="row top-20">
+        <label class="form">Airline</label>
+        <input type="text" id="buy-insurance-airline" />
+        <label class="form">Flight</label>
+        <input type="text" id="buy-insurance-flightname" /><label class="form"
+          >Timestamp</label
+        >
+        <input type="text" id="buy-insurance-timestamp" />
+        <btn class="btn btn-primary" id="buy-insurance">Buy</btn>
+      </div>
+
+      <div class="top-20">
+        <h2>(Passenger) Submit Flight Status to Oracle</h2>
+      </div>
+      <div class="row top-20">
+        <label class="form">Airline</label>
+        <input type="text" id="fetch-flightairline" />
+        <label class="form">Flight</label>
+        <input type="text" id="fetch-flightname" />
+        <label class="form">Timestamp</label>
+        <input type="text" id="fetch-flighttime" />
+        <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+      </div>
+
+      <div class="top-20">
+        <h2>(Passenger) Claim Insurance</h2>
+      </div>
+      <div class="row top-20">
+        <label class="form">Airline</label>
+        <input type="text" id="claim-flightairline" />
+        <label class="form">Flight</label>
+        <input type="text" id="claim-flightname" />
+        <label class="form">Timestamp</label>
+        <input type="text" id="claim-flighttime" />
+        <btn class="btn btn-primary" id="claim-insurance">Claim</btn>
+      </div>
+
+      <div class="top-20">
+        <h2>(Passenger) Withdraw</h2>
+      </div>
+      <div class="row top-20">
+        <btn class="btn btn-primary" id="withdraw">Withdraw</btn>
+      </div>
+    </main>
+  </body>
+</html>
