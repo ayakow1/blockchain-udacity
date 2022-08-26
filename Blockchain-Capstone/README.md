@@ -19,6 +19,9 @@ In this project we will be minting our own tokens to represent your title to the
 
 ### Rinkeby Contract Address
 
+Verfier
+[`0xDA81873dC99B777d4F988186DC02bF64FD895480`](https://rinkeby.etherscan.io/address/0xDA81873dC99B777d4F988186DC02bF64FD895480)
+SolnSquareVerifier
 [`0x9161054DfEB7621cE4b13AB9dE3578332cF0E187`](https://rinkeby.etherscan.io/address/0x9161054dfeb7621ce4b13ab9de3578332cf0e187)
 
 ### Token Name, Symbol, URI.
